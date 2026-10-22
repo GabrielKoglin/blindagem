@@ -51,7 +51,7 @@ script? Pedindo ao sistema operacional um atestado assinado:
 - **iOS**: App Attest / DeviceCheck (mesma ideia, feita pela Apple).
 - **Web**: não existe prova forte (o navegador é aberto por natureza). Aqui a defesa
   é rate limit, Turnstile/captcha e, de novo, toda lógica no servidor.
-- **Desktop (Pertin)**: assinatura de código + o servidor exige um token de sessão
+- **Desktop (app nativo)**: assinatura de código + o servidor exige um token de sessão
   curto e amarra o comportamento (um cliente que foge do protocolo é cortado).
 
 A atestação não é à prova de tudo, mas transforma "copiar o app" num problema caro.

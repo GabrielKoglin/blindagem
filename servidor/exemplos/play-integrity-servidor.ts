@@ -18,7 +18,7 @@ type VereditoIntegridade = {
   deviceIntegrity: { deviceRecognitionVerdict: string[] };
 };
 
-const PACOTE_ESPERADO = "com.ktechai.pertin"; // o SEU pacote
+const PACOTE_ESPERADO = "com.exemplo.app"; // troque pelo SEU pacote
 
 // Decifra o token com a API do Google Play Integrity e devolve o veredito.
 // (Use a biblioteca googleapis no servidor; esboco abaixo.)
